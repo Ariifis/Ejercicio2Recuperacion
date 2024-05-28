@@ -123,28 +123,28 @@
         <div class="w-full max-w-xs">
             <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
                 <div class="mb-4">
-                    <label class="block text-gray-700 text-sm font-bold mb-2" for="nombre">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="nombre" required>
                         Nombre
                     </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nombre" type="text" placeholder="Nombre">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="nombre" type="text" placeholder="Nombre" required>
                 </div>
                 <div class="mb-6">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
                         Correo electrónico
                     </label>
-                    <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Correo electrónico">
+                    <input class="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" placeholder="Correo electrónico" required>
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="asunto">
                         Asunto
                     </label>
-                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="asunto" type="text" placeholder="Asunto">
+                    <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="asunto" type="text" placeholder="Asunto" required>
                 </div>
                 <div class="mb-4">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="mensaje">
                         Mensaje
                     </label>
-                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="mensaje" placeholder="Mensaje"></textarea>
+                    <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="mensaje" placeholder="Mensaje" required ></textarea>
                 </div>
                 <div class="flex items-center justify-between">
                     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
@@ -154,8 +154,31 @@
             </form>
         </div>
     </div>
-    
         <p class="text-center text-gray-500 text-xs">&copy;2024 Todos los derechos son reservados.</p>
     </div>
+    <footer class="bg-pink-200 py-4" style="background-color: #FFA0FB;">
+        <ul class="flex flex-wrap justify-end gap-x-4">
+            <li class="footer"><a href="#" class="text-black">Política de Privacidad</a></li>
+            <li class="footer"><a href="#" class="text-black">Términos y Servicios</a></li>
+            <li class="footer">
+                <a href="">
+                    <img class="redSocial" src="" alt="Twitter">
+                </a>
+            </li>
+            <li class="footer">
+                <a href="">
+                    <img class="redSocial" src="" alt="Facebook">
+                </a>
+            </li>
+            <li class="footer">
+                <a href="">
+                    <img class="redSocial" src="" alt="Instagram">
+                </a>
+            </li>
+        </ul>
+    </footer>
+    
+    
+
 </body>
 </html>
