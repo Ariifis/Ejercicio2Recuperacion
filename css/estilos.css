@@ -3,3 +3,6 @@ h1{
     padding-top: 3vw;
     text-align: center;
 }
+#menu-toggle:checked + label + #menu {
+    display: block;
+}

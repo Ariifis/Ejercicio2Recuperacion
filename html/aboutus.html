@@ -7,24 +7,34 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<header style="background-color: #FFA0FB;">
-    <div class="container mx-auto">
-        <div class="flex flex-wrap items-center justify-between">
-            <a href="../html/index.html" class="flex items-center mb-2 lg:mb-0">
-                <img src="../Img/logo.svg" alt="Logo" width="55" height="25">
-                Cursillos
-            </a>
-
-            <ul class="nav flex justify-center lg:justify-end w-full lg:w-auto mb-2 md:mb-0 text-right">
-                <li class="menu mx-2"><a href="../html/Index.html" class="text-black dark:text-black">Inicio</a></li>
-                <li class="menu mx-2"><a href="../html/aboutus.html" class="text-black dark:text-black">About Us</a></li>
-                
-            </ul>
-        </div>
-    </div>
-</header>
 
 <body  class="bg-white-100">
+    <header class="bg-pink-300">
+        <div class="container mx-auto">
+            <div class="flex flex-wrap items-center justify-between py-4">
+                <a href="../html/index.html" class="flex items-center mb-2 lg:mb-0">
+                    <img src="../Img/logo.svg" alt="Logo" width="55" height="25">
+                    <span class="ml-2 font-bold text-black">Cursillos</span>
+                </a>
+
+                
+                <input type="checkbox" id="menu-toggle" class="hidden">
+                <label for="menu-toggle" class="cursor-pointer lg:hidden block">
+                    <svg class="fill-current text-black" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path d="M24 6H0V4h24v2zm0 5H0v-2h24v2zm0 5H0v-2h24v2z"/>
+                    </svg>
+                </label>
+
+                
+                <nav id="menu" class="hidden lg:flex lg:items-center lg:w-auto w-full">
+                    <ul class="nav flex flex-col lg:flex-row lg:space-x-6 w-full lg:w-auto text-center lg:text-right">
+                        <li class="menu mx-2"><a href="../html/Index.html" class="block py-2 px-4 text-black dark:text-black">Inicio</a></li>
+                        <li class="menu mx-2"><a href="../html/aboutus.html" class="block py-2 px-4 text-black dark:text-black">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     <div class="container mx-auto p-6">
         <h1 class="text-3xl font-bold mb-4">Historia</h1>
         <p class="mb-4">En nuestros primeros días, nos propusimos desafiar las limitaciones geográficas y económicas del aprendizaje tradicional al ofrecer cursos en línea de alta calidad, impartidos por expertos en sus campos respectivos. Desde entonces, hemos ampliado constantemente nuestra oferta de cursos para abarcar una amplia gama de disciplinas, desde tecnología y negocios hasta arte y salud.</p>
