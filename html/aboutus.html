@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +7,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
-<body>
+<header style="background-color: #FFA0FB;">
+    <div class="container mx-auto">
+        <div class="flex flex-wrap items-center justify-between">
+            <a href="../html/index.html" class="flex items-center mb-2 lg:mb-0">
+                <img src="../Img/logo.svg" alt="Logo" width="55" height="25">
+                Cursillos
+            </a>
+
+            <ul class="nav flex justify-center lg:justify-end w-full lg:w-auto mb-2 md:mb-0 text-right">
+                <li class="menu mx-2"><a href="../html/Index.html" class="text-black dark:text-black">Inicio</a></li>
+                <li class="menu mx-2"><a href="../html/aboutus.html" class="text-black dark:text-black">About Us</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</header>
+
+<body  class="bg-pink-100" style="background-color: #FFE5F0;">
     <div class="container mx-auto p-6">
         <h1 class="text-3xl font-bold mb-4">Historia</h1>
         <p class="mb-4">En nuestros primeros días, nos propusimos desafiar las limitaciones geográficas y económicas del aprendizaje tradicional al ofrecer cursos en línea de alta calidad, impartidos por expertos en sus campos respectivos. Desde entonces, hemos ampliado constantemente nuestra oferta de cursos para abarcar una amplia gama de disciplinas, desde tecnología y negocios hasta arte y salud.</p>
@@ -24,6 +41,24 @@
         <h1 class="text-3xl font-bold mb-4">Equipo</h1>
     </div>
     
-
+    <footer class="bg-pink-200 py-4" style="background-color: #FFA0FB;">
+        <div class="container mx-auto flex justify-between items-center">
+            <ul class="flex flex-wrap gap-x-4">
+                <li class="footer"><a href="#" class="text-black">Política de Privacidad</a></li>
+                <li class="footer"><a href="#" class="text-black">Términos y Servicios</a></li>
+            </ul>
+            <div class="flex gap-x-4">
+                <a href="https://x.com/">
+                    <img class="redSocial" src="../Img/X.png" alt="X" width="24" height="24">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img class="redSocial" src="../Img/facebook.png" alt="Facebook" width="24" height="24">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img class="redSocial" src="../Img/instagram.png" alt="Instagram" width="24" height="24">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
